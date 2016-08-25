@@ -39,6 +39,7 @@
         <module name="org.apache.commons.codec"/>
         <module name="org.apache.commons.beanutils"/>
         <module name="org.apache.commons.digester"/>
+        <module name="org.apache.commons.discover"/>
 
         <!-- extra dependencies for MyFaces 1.1
         <module name="org.apache.commons.logging"/>
