@@ -35,11 +35,11 @@
         <module name="org.apache.xalan" services="import"/>
 
         <!-- extra dependencies for MyFaces -->
-        <module name="org.apache.commons.collections"/>
-        <module name="org.apache.commons.codec"/>
-        <module name="org.apache.commons.beanutils"/>
+        <module name="org.apache.commons.collections" slot="${jsf-impl-name}-${jsf-version}"/>
+        <module name="org.apache.commons.codec" slot="${jsf-impl-name}-${jsf-version}"/>
+        <module name="org.apache.commons.beanutils" slot="${jsf-impl-name}-${jsf-version}"/>
         <module name="org.apache.commons.digester"/>
-        <module name="org.apache.commons.discover"/>
+        <module name="org.apache.commons.discovery" slot="${jsf-impl-name}-${jsf-version}"/>
 
         <!-- extra dependencies for MyFaces 1.1
         <module name="org.apache.commons.logging"/>

@@ -33,7 +33,7 @@
 
     <dependencies>
         <module name="javax.api"/>
-        <module name="org.apache.commons.collections"/>
+        <!--<module name="org.apache.commons.collections"/>-->
         <module name="org.apache.commons.logging"/>
         <module name="org.apache.commons.beanutils"/>
     </dependencies>
